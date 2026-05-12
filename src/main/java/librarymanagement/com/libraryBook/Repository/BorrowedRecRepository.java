@@ -1,0 +1,10 @@
+package librarymanagement.com.libraryBook.Repository;
+
+import librarymanagement.com.libraryBook.Enitity.Book;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface BorrowedRecRepository extends JpaRepository<Book, Long> {
+
+}
