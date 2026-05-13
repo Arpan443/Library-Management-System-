@@ -47,7 +47,7 @@ A RESTful API for managing a library built with Spring Boot, JWT Authentication,
 ## Setup
 
 1. Clone the repo
-2. In application.properties there area details
+2. In application.properties there are details
 3. Fill in your PostgreSQL credentials
 4. Run `mvn spring-boot:run`
 
